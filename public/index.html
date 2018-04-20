@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: #575ed8; font-family: monospace">მოგესალმებით GEOslack-ში</h1>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input type="text" id="user" type="text" placeholder="შეიყვანეთ სახელი"/>
+        <input type="text" id="message" type="text" placeholder="დაწერეთ შეტყობინება"/>
+        <button id="send">გაგზავნა</button>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+</html>
